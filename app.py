@@ -137,7 +137,7 @@ def message_text(event):
     print('user_id:' + user_id)
     line_bot_api.reply_message(
         event.reply_token,
-        TextSendMessage(text="luka: " + event.message.text)
+        TextSendMessage(text="阿豪: " + event.message.text)
     )
 
 
